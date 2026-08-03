@@ -1,0 +1,5 @@
+alpaca-py
+google-genai
+requests
+pandas
+pytz
