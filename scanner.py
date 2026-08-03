@@ -16,7 +16,8 @@ ALPACA_SECRET_KEY = os.environ.get("ALPACA_SECRET_KEY")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 
-WATCHLIST = ["AAPL", "NVDA", "TSLA", "MSFT", "AMD"]
+WATCHLIST = ["NVDA","TSLA","AAPL","AMZN","MSFT","META","AMD","PLTR","INTC","MU","GOOGL","NFLX","SOFI","ORCL","COIN","BABA","MARA","AVGO","DIS","F","SPY","IWM","QQQ","HOOD","JPM","C","BAC","XOM","OXY","UBER","ENPH","COST","NKE","LLY","MRK"
+]
 
 alpaca_client = StockHistoricalDataClient(ALPACA_API_KEY, ALPACA_SECRET_KEY)
 gemini_client = genai.Client(api_key=GEMINI_API_KEY)
